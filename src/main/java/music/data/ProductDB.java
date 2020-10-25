@@ -15,7 +15,7 @@ public class ProductDB
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 
-		String query = "SELECT * FROM Product WHERE ProductCode = ?";
+		var query = "SELECT * FROM Product WHERE ProductCode = ?";
 		
 		try 
 		{
@@ -59,7 +59,7 @@ public class ProductDB
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 
-		String query = "SELECT * FROM Product WHERE ProductID = ?";
+		var query = "SELECT * FROM Product WHERE ProductID = ?";
 		
 		try 
 		{
@@ -103,7 +103,7 @@ public class ProductDB
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 
-		String query = "SELECT * FROM Product";
+		var query = "SELECT * FROM Product";
 		
 		try 
 		{
